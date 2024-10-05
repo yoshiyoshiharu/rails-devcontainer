@@ -1,0 +1,33 @@
+{
+  "dockerComposeFile": [
+    "../compose.yml",
+    "./compose.yml"
+  ],
+  "service": "web",
+  "workspaceFolder": "/myapp",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "aliariff.vscode-erb-beautify",
+        "castwide.solargraph",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "KoichiSasada.vscode-rdbg",
+        "Shopify.ruby-lsp"
+      ],
+      "settings": {
+        "rubyLsp.erbSupport": false,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "[erb]": {
+          "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+        }
+      }
+    }
+  }
+}
