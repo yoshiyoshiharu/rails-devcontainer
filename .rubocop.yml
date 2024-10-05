@@ -1,0 +1,10 @@
+require:
+  - rubocop-rails
+  - rubocop-capybara
+  - rubocop-thread_safety
+  - rubocop-rake
+  - rubocop-performance
+  - rubocop-minitest
+AllCops:
+  DisplayCopNames: true
+  NewCops: enable
