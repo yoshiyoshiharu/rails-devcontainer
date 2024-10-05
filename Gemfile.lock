@@ -76,6 +76,8 @@ GEM
       erubi (~> 1.4)
       parser (>= 2.4)
       smart_properties
+    bootsnap (1.18.4)
+      msgpack (~> 1.2)
     brakeman (6.2.1)
       racc
     builder (3.2.4)
@@ -123,6 +125,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.20.0)
+    msgpack (1.7.3)
     net-imap (0.3.7)
       date
       net-protocol
@@ -255,6 +258,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bootsnap
   brakeman
   debug
   erb_lint
